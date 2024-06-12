@@ -124,9 +124,9 @@ nano ~/config.toml
    method = "x509"
    registration_id = "REGISTRATION_ID_HERE"
 
-   identity_cert = "DEVICE_IDENTITY_CERTIFICATE_HERE"
+   identity_cert = "DEVICE_IDENTITY_CERTIFICATE_HERE" # For example, "file:///var/aziot/device-id.pem"
 
-   identity_pk = "DEVICE_IDENTITY_PRIVATE_KEY_HERE"
+   identity_pk = "DEVICE_IDENTITY_PRIVATE_KEY_HERE" # For example, "file:///var/aziot/device-id.key"
 
    # auto_reprovisioning_mode = Dynamic
    ```
